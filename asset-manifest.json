@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/karuta/static/css/main.1975e12c.chunk.css",
+    "main.js": "/karuta/static/js/main.01fec951.chunk.js",
+    "main.js.map": "/karuta/static/js/main.01fec951.chunk.js.map",
+    "runtime-main.js": "/karuta/static/js/runtime-main.eb58603e.js",
+    "runtime-main.js.map": "/karuta/static/js/runtime-main.eb58603e.js.map",
+    "static/js/2.14a53f1e.chunk.js": "/karuta/static/js/2.14a53f1e.chunk.js",
+    "static/js/2.14a53f1e.chunk.js.map": "/karuta/static/js/2.14a53f1e.chunk.js.map",
+    "index.html": "/karuta/index.html",
+    "precache-manifest.1da1f9a5cdf913f1ee9b4f1318e14516.js": "/karuta/precache-manifest.1da1f9a5cdf913f1ee9b4f1318e14516.js",
+    "service-worker.js": "/karuta/service-worker.js",
+    "static/css/main.1975e12c.chunk.css.map": "/karuta/static/css/main.1975e12c.chunk.css.map",
+    "static/js/2.14a53f1e.chunk.js.LICENSE.txt": "/karuta/static/js/2.14a53f1e.chunk.js.LICENSE.txt",
+    "static/media/61.png": "/karuta/static/media/61.bde33409.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb58603e.js",
+    "static/js/2.14a53f1e.chunk.js",
+    "static/css/main.1975e12c.chunk.css",
+    "static/js/main.01fec951.chunk.js"
+  ]
+}
