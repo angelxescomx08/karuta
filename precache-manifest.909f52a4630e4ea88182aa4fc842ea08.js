@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fec9b27928b7948730dbffd323b0a916",
+    "revision": "d3a8ccc46a17a361c1964f676174f949",
     "url": "/karuta/index.html"
   },
   {
