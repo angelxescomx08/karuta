@@ -1,0 +1,35 @@
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-gap: 2rem;
+    align-items: stretch;
+}
+.grid > article {
+  border: .3rem solid #00adb5;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  border-radius: 1rem;
+  transition-duration: 400ms;
+  -moz-transition-duration: 400ms;
+  -webkit-transition-duration: 400ms;
+  -o-transition-duration: 400ms;
+  background-color: #393e46;
+}
+
+.grid > article:hover{
+  transform: scale(1.1);
+}
+
+.grid > article img {
+  max-width: 100%;
+}
+.text {
+  padding: 0 20px 20px;
+}
+
+.text > h3{
+  color: #000000;
+}
+
+.text > p{
+  font-size: 1rem;
+}
