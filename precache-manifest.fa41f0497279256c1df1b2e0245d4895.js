@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "897434355e9b4621633d9bc86d26d945",
+    "revision": "acff8772d24bc7570ad84f0919703a30",
     "url": "/karuta/index.html"
   },
   {
-    "revision": "dce52bcaedb501bc7c64",
+    "revision": "411f884f9ae0efc1a4cb",
     "url": "/karuta/static/css/main.007f01e7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/karuta/static/js/2.854e6960.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dce52bcaedb501bc7c64",
-    "url": "/karuta/static/js/main.df6ad504.chunk.js"
+    "revision": "411f884f9ae0efc1a4cb",
+    "url": "/karuta/static/js/main.9e705592.chunk.js"
   },
   {
     "revision": "4eea17318e45530492f3",
