@@ -4,15 +4,15 @@ import '../css/carta.css';
 function Card(props){
     const arr = props.trad1.split('\n')
     return(
-        <article key={props.numero}>
+        <article>
             <div>
                 <figure>
-                    <img alt="Carta 61" src={props.img1}></img>
+                    <img src={props.img1} alt=""></img>
                 </figure>
                 <div className="text">
                     <h3>{props.nombre}</h3>
                     <p>{props.numero}<br></br>
-                        {arr.map(linea=>(<>{linea}<br></br></>))}
+                        {arr.map((linea,index)=>(<span key={index+"linea"}>{linea}<br></br></span>))}
                     </p>
                 </div>
             </div>
