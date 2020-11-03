@@ -27,9 +27,9 @@ function Information(props){
                 <h3>{cartas[ind].numero}</h3>
                 <img alt='' src={img1}></img>
                 <h4>{cartas[ind].autor}</h4>
-                <p>{romaji.map((linea,index)=>(<span key={index+"linea"}>{linea}<br/></span>))}</p>
-                <p>{trad1.map((linea,index)=>(<span key={index+"linea"}>{linea}<br/></span>))}</p>
-                <p>{trad2.map((linea,index)=>(<span key={index+"linea"}>{linea}<br/></span>))}</p>
+                <p className='romaji'>{romaji.map((linea,index)=>(<span key={index+"linea"}>{linea}<br/></span>))}</p>
+                <p className='trad1'>{trad1.map((linea,index)=>(<span key={index+"linea"}>{linea}<br/></span>))}</p>
+                <p className='trad2'>{trad2.map((linea,index)=>(<span key={index+"linea"}>{linea}<br/></span>))}</p>
             </>
         </article>
     )

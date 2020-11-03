@@ -3,11 +3,27 @@
 }
 
 .information > img{
+    min-width: 40vw;
+    max-width: 100%;
     border-radius: 0.5rem;
 }
 
+.information > h2{
+    color: rgb(64, 179, 255);
+    font-size: 3.5vw;
+}
+
+.information > h3{
+    font-size: 3vw;
+}
+
+.information > h4{
+    font-size: 2.5vw;
+    color: rgb(226, 87, 87);
+}
+
 .information > p{
-    font-size: 1.5rem;
+    font-size: 2vw;
 }
 
 .information > button{
@@ -27,4 +43,16 @@
 .information > button > img{
     width: 5vw;
     width: 5vh;
+}
+
+.romaji{
+    color:black;
+}
+
+.trad1{
+    color: rgb(195, 120, 189);
+}
+
+.trad2{
+    color: rgb(207, 209, 57);
 }
