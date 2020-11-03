@@ -29,9 +29,14 @@
 }
 
 .text > h3{
-  color: #000000;
+  color: rgb(64, 179, 255);
 }
 
-.text > p{
+.poema{
   font-size: 1rem;
+  color:  rgb(207, 209, 57);
+}
+
+.numero{
+  color:white;
 }

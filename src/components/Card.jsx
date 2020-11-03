@@ -13,7 +13,8 @@ function Card(props){
                 </figure>
                 <div className="text">
                     <h3>{props.silaba}</h3>
-                    <p>{props.numero}<br></br><br></br>
+                    <p className='numero'>{props.numero}</p>
+                    <p className='poema'>
                         {arr.map((linea,index)=>(<span key={index+"linea"}>{linea}<br></br></span>))}
                     </p>
                 </div>
