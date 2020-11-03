@@ -1,7 +1,8 @@
-import React,{useState} from 'react';
-import './App.css';
-import {cartas} from './js/cartas';
-import Card from './components/Card.jsx';
+import React,{useState} from 'react'
+import './App.css'
+import {cartas} from './js/cartas'
+import Card from './components/Card.jsx'
+import Information from './components/Information.jsx'
 import img1 from './img/61.png'
 import './css/buscador.css'
 
@@ -12,7 +13,7 @@ function App() {
     setBuscar(inputRef.current.value);
   }
   const arrCards = cartas.map((c,index)=>{
-    return (<Card key={index} nombre={c.nombre} numero={c.numero} trad1={c.trad1} img1={img1}></Card>)
+    return (<Card setBuscar={setBuscar} key={index} nombre={c.silaba} numero={c.numero} trad1={c.trad1} img1={img1}></Card>)
   })
   const tiene_numeros = texto=>{
     const numeros = "0123456789"
@@ -28,7 +29,18 @@ function App() {
       return arrCards.map((c)=>c)
     }
     else if(tiene_numeros(buscar) && Number.isInteger(parseInt(buscar))){
-      return arrCards.filter(c=>c.props.numero === parseInt(buscar))
+      return arrCards.filter(c=>c.props.numero === buscar)
+    }
+    else if(buscar.charAt(0) === '$'){
+      let aux = ''
+      for(let i=1;i<buscar.length;i++){
+        aux += buscar.charAt(i)
+      }
+      let index = parseInt(aux)
+      let carta = cartas[index]
+      return <Information nombre={carta.silaba} numero={carta.numero} autor={carta.autor}
+              romaji={carta.romaji} trad1={carta.trad1} trad2={carta.trad2}
+      ></Information>
     }
     else{    
       return arrCards.filter(c=> c.props.nombre.toLowerCase() === buscar.toLowerCase())
