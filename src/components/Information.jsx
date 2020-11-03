@@ -8,7 +8,6 @@ import { useState } from 'react';
 
 function Information(props){
     const [ind,setInd] = useState(parseInt(props.numero)-1)
-    console.log(ind)
     const romaji = cartas[ind].romaji.split('\n')
     const trad1 = cartas[ind].trad1.split('\n')
     const trad2 = cartas[ind].trad2.split('\n')
