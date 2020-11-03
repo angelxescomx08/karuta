@@ -5,4 +5,19 @@ nav{
     z-index: 199;
     background: #222831;
     width: 100%;
+    display: inline;
+}
+
+.buscar > img{
+    width: 1vw;
+    height: 1.5vh;
+}
+
+.inicio{
+    float: left;
+}
+
+.inicio > img{
+    width: 1vw;
+    height: 2.5vh;
 }

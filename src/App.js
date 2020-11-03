@@ -5,16 +5,28 @@ import Card from './components/Card.jsx'
 import Information from './components/Information.jsx'
 import img1 from './img/61.png'
 import './css/buscador.css'
+import inicio from './icons/hogar.svg'
+import buscarImg from './icons/buscar.svg'
 
 function App() {
   const inputRef = React.createRef()
   const [buscar,setBuscar] = useState('')
+  
   const aceptar = ()=> {
-    setBuscar(inputRef.current.value);
+    setBuscar(inputRef.current.value)
+    inputRef.current.value = ''
   }
+
+  const inicioBoton = ()=> {
+    setBuscar('')
+    inputRef.current.value = ''
+  }
+
   const arrCards = cartas.map((c,index)=>{
-    return (<Card setBuscar={setBuscar} key={index} nombre={c.silaba} numero={c.numero} trad1={c.trad1} img1={img1}></Card>)
+    return (<Card setBuscar={setBuscar} key={index} silaba={c.silaba} nombre={c.nombre}
+      numero={c.numero} trad1={c.trad1} img1={img1}></Card>)
   })
+
   const tiene_numeros = texto=>{
     const numeros = "0123456789"
     for(let i=0; i<texto.length; i++){
@@ -24,6 +36,7 @@ function App() {
     }
     return false
   }
+
   const mostrar = (buscar)=>{
     if(buscar === ''){
       return arrCards.map((c)=>c)
@@ -51,8 +64,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <nav>
+          <button className='inicio' onClick={
+            inicioBoton
+          }><img src={inicio} alt='inicio'></img></button>
           <input ref={inputRef}></input>
-          <button onClick={aceptar}>Aceptar</button>
+          <button className='buscar' onClick={aceptar}><img alt='buscar' src={buscarImg}></img></button>
         </nav>
         <main className="grid">{
           mostrar(buscar)
