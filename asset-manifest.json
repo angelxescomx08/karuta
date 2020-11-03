@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/karuta/static/css/main.9fe1daa7.chunk.css",
-    "main.js": "/karuta/static/js/main.85f293d9.chunk.js",
-    "main.js.map": "/karuta/static/js/main.85f293d9.chunk.js.map",
+    "main.css": "/karuta/static/css/main.b04511a0.chunk.css",
+    "main.js": "/karuta/static/js/main.5615c34c.chunk.js",
+    "main.js.map": "/karuta/static/js/main.5615c34c.chunk.js.map",
     "runtime-main.js": "/karuta/static/js/runtime-main.eb58603e.js",
     "runtime-main.js.map": "/karuta/static/js/runtime-main.eb58603e.js.map",
-    "static/js/2.8ffa6ec1.chunk.js": "/karuta/static/js/2.8ffa6ec1.chunk.js",
-    "static/js/2.8ffa6ec1.chunk.js.map": "/karuta/static/js/2.8ffa6ec1.chunk.js.map",
+    "static/js/2.e586266f.chunk.js": "/karuta/static/js/2.e586266f.chunk.js",
+    "static/js/2.e586266f.chunk.js.map": "/karuta/static/js/2.e586266f.chunk.js.map",
     "index.html": "/karuta/index.html",
-    "precache-manifest.42384be70de7cd63265290036dfc57c7.js": "/karuta/precache-manifest.42384be70de7cd63265290036dfc57c7.js",
+    "precache-manifest.40e4510389c1002e871c24a0ce7c22e7.js": "/karuta/precache-manifest.40e4510389c1002e871c24a0ce7c22e7.js",
     "service-worker.js": "/karuta/service-worker.js",
-    "static/css/main.9fe1daa7.chunk.css.map": "/karuta/static/css/main.9fe1daa7.chunk.css.map",
-    "static/js/2.8ffa6ec1.chunk.js.LICENSE.txt": "/karuta/static/js/2.8ffa6ec1.chunk.js.LICENSE.txt",
+    "static/css/main.b04511a0.chunk.css.map": "/karuta/static/css/main.b04511a0.chunk.css.map",
+    "static/js/2.e586266f.chunk.js.LICENSE.txt": "/karuta/static/js/2.e586266f.chunk.js.LICENSE.txt",
     "static/media/61.png": "/karuta/static/media/61.bde33409.png",
+    "static/media/anterior.svg": "/karuta/static/media/anterior.6c9efe0c.svg",
     "static/media/buscar.svg": "/karuta/static/media/buscar.3267ec29.svg",
-    "static/media/hogar.svg": "/karuta/static/media/hogar.06478be3.svg"
+    "static/media/hogar.svg": "/karuta/static/media/hogar.06478be3.svg",
+    "static/media/siguiente.svg": "/karuta/static/media/siguiente.2cf9065a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.eb58603e.js",
-    "static/js/2.8ffa6ec1.chunk.js",
-    "static/css/main.9fe1daa7.chunk.css",
-    "static/js/main.85f293d9.chunk.js"
+    "static/js/2.e586266f.chunk.js",
+    "static/css/main.b04511a0.chunk.css",
+    "static/js/main.5615c34c.chunk.js"
   ]
 }
