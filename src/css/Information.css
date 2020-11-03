@@ -9,3 +9,22 @@
 .information > p{
     font-size: 1.5rem;
 }
+
+.information > button{
+    top: 50vh;
+}
+
+.information > .atras{
+    position: fixed;
+    left: 0;
+}
+
+.information > .siguiente{
+    position: fixed;
+    right: 0;
+}
+
+.information > button > img{
+    width: 5vw;
+    width: 5vh;
+}
