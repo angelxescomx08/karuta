@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/karuta/static/css/main.007f01e7.chunk.css",
-    "main.js": "/karuta/static/js/main.05110a0e.chunk.js",
-    "main.js.map": "/karuta/static/js/main.05110a0e.chunk.js.map",
+    "main.css": "/karuta/static/css/main.acc8558c.chunk.css",
+    "main.js": "/karuta/static/js/main.878cba7f.chunk.js",
+    "main.js.map": "/karuta/static/js/main.878cba7f.chunk.js.map",
     "runtime-main.js": "/karuta/static/js/runtime-main.eb58603e.js",
     "runtime-main.js.map": "/karuta/static/js/runtime-main.eb58603e.js.map",
-    "static/js/2.854e6960.chunk.js": "/karuta/static/js/2.854e6960.chunk.js",
-    "static/js/2.854e6960.chunk.js.map": "/karuta/static/js/2.854e6960.chunk.js.map",
+    "static/js/2.6a39c3f5.chunk.js": "/karuta/static/js/2.6a39c3f5.chunk.js",
+    "static/js/2.6a39c3f5.chunk.js.map": "/karuta/static/js/2.6a39c3f5.chunk.js.map",
     "index.html": "/karuta/index.html",
-    "precache-manifest.6b4ea05ea297317d211a90c75c3ce7bb.js": "/karuta/precache-manifest.6b4ea05ea297317d211a90c75c3ce7bb.js",
+    "precache-manifest.107d208b4d21244d37a617c08a33eda8.js": "/karuta/precache-manifest.107d208b4d21244d37a617c08a33eda8.js",
     "service-worker.js": "/karuta/service-worker.js",
-    "static/css/main.007f01e7.chunk.css.map": "/karuta/static/css/main.007f01e7.chunk.css.map",
-    "static/js/2.854e6960.chunk.js.LICENSE.txt": "/karuta/static/js/2.854e6960.chunk.js.LICENSE.txt",
+    "static/css/main.acc8558c.chunk.css.map": "/karuta/static/css/main.acc8558c.chunk.css.map",
+    "static/js/2.6a39c3f5.chunk.js.LICENSE.txt": "/karuta/static/js/2.6a39c3f5.chunk.js.LICENSE.txt",
     "static/media/61.png": "/karuta/static/media/61.bde33409.png"
   },
   "entrypoints": [
     "static/js/runtime-main.eb58603e.js",
-    "static/js/2.854e6960.chunk.js",
-    "static/css/main.007f01e7.chunk.css",
-    "static/js/main.05110a0e.chunk.js"
+    "static/js/2.6a39c3f5.chunk.js",
+    "static/css/main.acc8558c.chunk.css",
+    "static/js/main.878cba7f.chunk.js"
   ]
 }
