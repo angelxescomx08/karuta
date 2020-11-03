@@ -5,6 +5,7 @@ function Card(props){
     const arr = props.trad1.split('\n')
     return(
         <article className='Card' onClick={()=>{
+            console.log('$'+props.numero)
             props.setBuscar('$'+props.numero)
         }}>
             <div>

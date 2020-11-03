@@ -36,7 +36,7 @@ function App() {
       for(let i=1;i<buscar.length;i++){
         aux += buscar.charAt(i)
       }
-      let index = parseInt(aux)
+      let index = parseInt(aux) - 1
       let carta = cartas[index]
       return <Information nombre={carta.silaba} numero={carta.numero} autor={carta.autor}
               romaji={carta.romaji} trad1={carta.trad1} trad2={carta.trad2}

@@ -1,0 +1,11 @@
+.information{
+    margin: auto;
+}
+
+.information > img{
+    border-radius: 0.5rem;
+}
+
+.information > p{
+    font-size: 1.5rem;
+}
