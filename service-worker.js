@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/karuta/precache-manifest.1a9a5d2e8fd4d72d39dadc2b5730b513.js"
+  "/karuta/precache-manifest.f325d58077b66c0575c88c046bb9a31d.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/karuta/static/css/main.8890722c.chunk.css",
+    "main.css": "/karuta/static/css/main.7ebfa657.chunk.css",
     "main.js": "/karuta/static/js/main.0c704f76.chunk.js",
     "main.js.map": "/karuta/static/js/main.0c704f76.chunk.js.map",
     "runtime-main.js": "/karuta/static/js/runtime-main.eb58603e.js",
@@ -8,9 +8,9 @@
     "static/js/2.e586266f.chunk.js": "/karuta/static/js/2.e586266f.chunk.js",
     "static/js/2.e586266f.chunk.js.map": "/karuta/static/js/2.e586266f.chunk.js.map",
     "index.html": "/karuta/index.html",
-    "precache-manifest.1a9a5d2e8fd4d72d39dadc2b5730b513.js": "/karuta/precache-manifest.1a9a5d2e8fd4d72d39dadc2b5730b513.js",
+    "precache-manifest.f325d58077b66c0575c88c046bb9a31d.js": "/karuta/precache-manifest.f325d58077b66c0575c88c046bb9a31d.js",
     "service-worker.js": "/karuta/service-worker.js",
-    "static/css/main.8890722c.chunk.css.map": "/karuta/static/css/main.8890722c.chunk.css.map",
+    "static/css/main.7ebfa657.chunk.css.map": "/karuta/static/css/main.7ebfa657.chunk.css.map",
     "static/js/2.e586266f.chunk.js.LICENSE.txt": "/karuta/static/js/2.e586266f.chunk.js.LICENSE.txt",
     "static/media/61.png": "/karuta/static/media/61.bde33409.png",
     "static/media/anterior.svg": "/karuta/static/media/anterior.6c9efe0c.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.eb58603e.js",
     "static/js/2.e586266f.chunk.js",
-    "static/css/main.8890722c.chunk.css",
+    "static/css/main.7ebfa657.chunk.css",
     "static/js/main.0c704f76.chunk.js"
   ]
 }
