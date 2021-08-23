@@ -40,9 +40,9 @@ function App() {
   const mostrar = (buscar)=>{
     if(buscar === ''){
       return arrCards.map((c)=>c)
-    }
+    } 
     else if(tiene_numeros(buscar) && Number.isInteger(parseInt(buscar))){
-      return arrCards.filter(c=>c.props.numero === buscar)
+      return arrCards.filter(c=>c.props.numero.includes(buscar))
     }
     else if(buscar.charAt(0) === '$'){
       let aux = ''
@@ -56,7 +56,7 @@ function App() {
       ></Information>
     }
     else{    
-      return arrCards.filter(c=> c.props.nombre.toLowerCase() === buscar.toLowerCase())
+      return arrCards.filter(c=> c.props.nombre.toLowerCase().includes(buscar.toLowerCase()))
     }
   } 
   
@@ -67,7 +67,11 @@ function App() {
           <button className='inicio' onClick={
             inicioBoton
           }><img className="icon" src={inicio} alt='inicio'></img></button>
-          <input ref={inputRef}></input>
+          <input ref={inputRef} onKeyDown={(event)=>{
+            if(event.key === 'Enter'){
+              aceptar()
+            }
+          }}></input>
           <button className='buscar' onClick={aceptar}><img className="icon" alt='buscar' src={buscarImg}></img></button>
         </nav>
       </header>

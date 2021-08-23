@@ -369,8 +369,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `17`,
-		"nombre" : `Chihayaburu
-					Kamiyo`,
+		"nombre" : `Chihayaburu Kamiyo`,
 		"silaba" : `Chiha`,
 		"romaji" : `Chihayaburu
 					Kamiyo mo kikazu
@@ -577,8 +576,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `26`,
-		"nombre" : `Ogurayama
-					Mine`,
+		"nombre" : `Ogurayama Mine`,
 		"silaba" : `Ogu`,
 		"romaji" : `Ogurayama
 					Mine no momijiba
@@ -693,9 +691,8 @@ export const cartas = [
 	},
 	{
 		"numero" : `31`,
-		"nombre" : `Asaborake
-					Ariake`,
-		"silaba" : `AsaborakeA`,
+		"nombre" : `Asaborake Ariake`,
+		"silaba" : `Asaborake A`,
 		"romaji" : `Asaborake
 					Ariake no tsuki to
 					Miru made ni
@@ -855,8 +852,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `38`,
-		"nombre" : `Wasuraruru
-					Mi`,
+		"nombre" : `Wasuraruru Mi`,
 		"silaba" : `Wasura`,
 		"romaji" : `Wasuraruru
 					Mi o ba omowazu
@@ -902,8 +898,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `40`,
-		"nombre" : `Shinoburedo
-					Iro`,
+		"nombre" : `Shinoburedo Iro`,
 		"silaba" : `Shino`,
 		"romaji" : `Shinoburedo
 					Iro ni ide ni keri
@@ -1064,8 +1059,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `47`,
-		"nombre" : `Yaemugura
-					Shigereru`,
+		"nombre" : `Yaemugura Shigereru`,
 		"silaba" : `Yae`,
 		"romaji" : `Yaemugura
 					Shigereru yado no
@@ -1111,8 +1105,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `49`,
-		"nombre" : `Mikakimori
-					Eji`,
+		"nombre" : `Mikakimori Eji`,
 		"silaba" : `Mikaki`,
 		"romaji" : `Mikakimori
 					Eji no taku hi no
@@ -1181,8 +1174,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `52`,
-		"nombre" : `Akenureba
-					Kururu`,
+		"nombre" : `Akenureba Kururu`,
 		"silaba" : `Ake`,
 		"romaji" : `Akenureba
 					Kururu mono to wa
@@ -1274,8 +1266,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `56`,
-		"nombre" : `Arazaran
-					Kono`,
+		"nombre" : `Arazaran Kono`,
 		"silaba" : `Araza`,
 		"romaji" : `Arazaran
 					Kono yo no hoka no
@@ -1321,8 +1312,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `58`,
-		"nombre" : `Arimayama
-					Ina`,
+		"nombre" : `Arimayama Ina`,
 		"silaba" : `Arima`,
 		"romaji" : `Arimayama
 					Ina no sasawara
@@ -1345,8 +1335,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `59`,
-		"nombre" : `Yasurawade
-					Nenamashi`,
+		"nombre" : `Yasurawade Nenamashi`,
 		"silaba" : `Yasu`,
 		"romaji" : `Yasurawade
 					Nenamashi mono o
@@ -1369,8 +1358,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `60`,
-		"nombre" : `Oeyama
-					Ikuno`,
+		"nombre" : `Oeyama Ikuno`,
 		"silaba" : `Ooe`,
 		"romaji" : `Oeyama
 					Ikuno no michi no
@@ -1462,8 +1450,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `64`,
-		"nombre" : `Asaborake
-					Uji`,
+		"nombre" : `Asaborake Uji`,
 		"silaba" : `AsaborakeU`,
 		"romaji" : `Asaborake
 					Uji no kawagiri
@@ -1831,8 +1818,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `80`,
-		"nombre" : `Nagakaran
-					Kokoro`,
+		"nombre" : `Nagakaran Kokoro`,
 		"silaba" : `Nagaka`,
 		"romaji" : `Nagakaran
 					Kokoro mo shirazu
@@ -1855,8 +1841,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `81`,
-		"nombre" : `Hototogisu
-					Nakitsuru`,
+		"nombre" : `Hototogisu Nakitsuru`,
 		"silaba" : `Ho`,
 		"romaji" : `Hototogisu
 					Nakitsuru kata o
@@ -1925,8 +1910,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `84`,
-		"nombre" : `Nagaraeba
-					Mata`,
+		"nombre" : `Nagaraeba Mata`,
 		"silaba" : `Nagara`,
 		"romaji" : `Nagaraeba
 					Mata konogoro ya
@@ -2087,8 +2071,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `91`,
-		"nombre" : `Kirigirisu
-					Naku`,
+		"nombre" : `Kirigirisu Naku`,
 		"silaba" : `Kiri`,
 		"romaji" : `Kirigirisu
 					Naku ya shimo yo no
@@ -2180,8 +2163,7 @@ export const cartas = [
 	},
 	{
 		"numero" : `95`,
-		"nombre" : `Okenaku
-					Ukiyo`,
+		"nombre" : `Okenaku Ukiyo`,
 		"silaba" : `Ooke`,
 		"romaji" : `Okenaku
 					Ukiyo no tami ni
