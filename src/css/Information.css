@@ -1,0 +1,59 @@
+.information{
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    width: 30rem;
+    justify-content: center;
+}
+
+button{
+    background-color: #222831;
+    border: none;
+}
+
+.atras{
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+    padding: 1em;
+    background-color: #ffffff;
+}
+
+.siguiente{
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    padding: 1em;
+    background-color: #ffffff;
+}
+
+.img-karuta{
+    width: 100%;
+    height: 40rem;
+}
+
+.tittle-name{
+    font-size: 2rem;
+    margin-top: .5em;
+    margin-bottom: .2em;
+}
+
+.tittle-num{
+    font-size: 1.7rem;
+    margin: .2em;
+}
+
+.tittle-autor{
+    font-size: 1.7rem;
+    margin: .2em;
+}
+
+.text{
+    font-size: 1.3rem;
+}

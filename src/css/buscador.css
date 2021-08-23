@@ -1,0 +1,20 @@
+nav{
+    position: fixed;
+    top: 0;
+    display: inline;
+    width: 100%;
+    padding: 1rem;
+    background: #222831;
+}
+
+.buscar > img{
+    width: .8rem;
+}
+
+.inicio{
+    float: left;
+}
+
+.inicio > img{
+    width: 1rem;
+}

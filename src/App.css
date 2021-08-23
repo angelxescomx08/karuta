@@ -1,0 +1,35 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #EFB7B7;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222831;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  margin-bottom: 4rem;
+}
+
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.icon{
+  filter: invert(100%) sepia(0%) saturate(6318%) hue-rotate(210deg) brightness(126%) contrast(87%);
+}
+
+.icon:hover{
+  filter: invert(34%) sepia(77%) saturate(4954%) hue-rotate(346deg) brightness(96%) contrast(110%);
+}
